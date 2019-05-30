@@ -39,7 +39,7 @@ and a closing `p` tag.
 ```
 
 Elements, like our `p` tags above, won't be displayed in the browser. Instead,
-they affect how the content itself is displayed. Techonologists might say that
+they affect how the content itself is displayed. Technologists might say that
 the tags "affect how the content is rendered by the browser."
 
 We can also alter any number of attributes inside of the opening tags. For
@@ -67,10 +67,10 @@ separate paragraph, we could nest an `a` element inside of a `p`.
 All HTML documents begin with a "doctype declaration" tag, which tells our web
 browser which version of HTML to use. HTML is a language that is currently
 evolving &mdash; just like English. When we open "Romeo and Juliet," our
-expectation is that the "doctype" is "Elizabethan English." In the same way
+expectation is that the "doctype" is "Elizabethan English." In the same way that
 "Elizabethan English" has changed to a more modern form, HTML 1.0 was
 _essentially_ the same as modern HTML5 but had some tags we don't use any more
-and was lacking some tags we use often today.
+and was lacking some tags we often use today.
 
 Since it's not wrapping any content, our doctype declaration doesn't require a
 closing tag. To use HTML5, the current up-to-date version, we can simply
@@ -118,7 +118,7 @@ document.  These won't get rendered to the browser at all: they're just helpful
 notes for the author.
 
 ```html
-<!-- NYC Pizza is world-famous, cheap, and loved by both vermin and human like! -->
+<!-- NYC Pizza is world-famous, cheap, and loved by both vermin and human alike! -->
 <p>Top 5 Pizza Places in NYC</p>
 ```
 
@@ -140,9 +140,9 @@ with `h1` being the largest and `h6` being the smallest.
 ```
 
 In addition to changing how the text is displayed, search engines use headers
-to help determine what a web page is about. Remember, as Avi pointed out, when
+to help determine what a web page is about. When
 we provide _semantic_ markup, machines can infer the "main points" of a page. A
-well structured article will generally have its principle arguments bracketed
+well structured article will generally have its principal arguments bracketed
 by low-number header tags -- this very document does exactly that!
 
 #### Images
@@ -150,24 +150,24 @@ by low-number header tags -- this very document does exactly that!
 We can embed images on our web pages using the `img` element. The `img` element
 doesn't have a closing tag. The `src` attribute tells the browser where to find
 the image. The `alt` attribute will be displayed if an image can't be loaded,
-and also describes the image to search engines.
+and it also describes the image to search engines.
 
-The `alt` tag presents a moment to talk about an important principle behind Tim
+The `alt` attribute presents a moment to talk about an important principle behind Tim
 Berners-Lee's vision for the Web: it is _inclusive_. If you're using assistive
 technologies because you have a sight impairment, it's helpful to know what's
 being displayed. If you're in a remote community where internet access is
 expensive, you might choose to disable images and only pay to download those
 which you _absolutely need_. So while an `img` will inject an image and "work,"
 honoring the Web's vision for openness and inclusivity requires that we provide
-the `alt` tag as well.
+the `alt` attribute as well.
 
 `<img src="URL_TO_IMAGE" alt="Picture of a Dog">`
 
 #### Lists
 
-Some other useful HTML elements are lists. We can make bulleted, or unordered
-lists, using opening and closing `ul` tags. Inside, we can nest an `li`, or
-"list item" element for each item on our list.
+Some other useful HTML elements are lists. We can make bulleted, or unordered,
+lists using opening and closing `ul` tags. Inside, we can nest an `li`, or
+"list item", element for each item on our list.
 
 ```html
 <h5>My Favorite Things in No Particular Order</h5>
@@ -190,7 +190,7 @@ ____
 </ul>
 ____
 
-We can also make a numbered, or ordered list, using an `ol` tag.
+We can also make a numbered, or ordered, list using an `ol` tag.
 
 ```html
 <h5>Top 5 Pizza Places in NYC</h5>
