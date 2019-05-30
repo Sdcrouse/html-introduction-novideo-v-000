@@ -114,7 +114,7 @@ for the browser, while the `body` element contains the actual content.
 #### Comments
 
 Let's also take a brief moment to recognize how to add comments into an HTML
-document.  These won't get rendered to the browser at all: they're just helpful
+document.  These won't get rendered to the browser at all; they're just helpful
 notes for the author.
 
 ```html
